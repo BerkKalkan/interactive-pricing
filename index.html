@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="title">
+    <div class="title-position-container">
+      <img src="assets/images/circles.png">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. <br>No credit card required. </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="range">
+      <div class="range-info">
+        <h2><span id="pageViewsLeft">100</span>K PAGEVIEWS</h2>
+        <div class="price-info price-info--desktop">
+          <p class="price" id="pageViews">$50.00</p>
+          <p class="monthly">/ month</p>
+        </div>
+      </div>
+      <input type="range" min="1" max="32" step="1" value="16" id="pageViewRange">
+      <div class="price-info">
+        <p class="price" id="pageViewsMobile">$16.00</p>
+        <p class="monthly">/ month</p>
+      </div>
+      <div class="switch">
+        <p>Monthly Billing</p>
+        <div class="switch-button" id="switchBtn">
+          <span id="switchCircle"></span>
+          <span id="switchCircleActive"></span>
+        </div>
+        <div class="yearly">
+          <p>Yearly Billing</p>
+          <span class="discount">-25%</span>
+        </div>
+      </div>
+    </div>
+    <div class="trial">
+      <div class="trial-info">
+        <p><img src="assets/images/check.svg" alt="" style="padding: 4px;">Unlimited websites</p>
+        <p><img src="assets/images/check.svg" alt="" style="padding: 4px;">100% data ownership</p>
+        <p><img src="assets/images/check.svg" alt="" style="padding: 4px;">Email reports</p>
+      </div>
+      <button class="trial-button">Start my trial</button>
+    </div>
+  </div>
+</body>
+
+</html>
